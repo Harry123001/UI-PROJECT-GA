@@ -1,17 +1,25 @@
 const url = 'https://rickandmortyapi.com/api/character/1,2,3,4,5';
 
 fetch(url)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('There was a problem with the fetch operation:', error);
-  });
+    .then(res => {
+        return res.json();
+    })
+    .then(res => {
+        console.log("success!", res);
+        fetchApi(res)
+    })
+    .catch(err => {
+        console.log("something went wrong...", err);
+    });
 
-  
+function fetchApi(data) {
+    console.log('fetching API Data', data)
+
+    console.log(data[0].image)
+
+
+
+
+
+
+}
