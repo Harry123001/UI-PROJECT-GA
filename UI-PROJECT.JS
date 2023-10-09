@@ -15,11 +15,19 @@ fetch(url)
 function fetchApi(data) {
     console.log('fetching API Data', data)
 
-    console.log(data[0].image)
+    const fetchImage = document.getElementById('acc1')
+    fetchImage.src = data[0].image
 
+    const fetchImage1 = document.getElementById('acc2')
+    fetchImage1.src = data[1].image
 
+    const fetchImage2 = document.getElementById('acc3')
+    fetchImage2.src = data[2].image
 
+    const fetchImage3 = document.getElementById('acc4')
+    fetchImage3.src = data[3].image
 
-
+    const fetchImage4 = document.getElementById('acc5')
+    fetchImage4.src = data[4].image
 
 }
