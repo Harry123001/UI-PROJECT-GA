@@ -1,0 +1,9 @@
+.accordion {
+    width: 80%;
+    margin: 100px ;
+    border: 2px solid grey;
+}
+
+body .accordion-item4{
+    background-color: aquamarine;
+}
