@@ -30,4 +30,21 @@ function fetchApi(data) {
     const fetchImage4 = document.getElementById('acc5')
     fetchImage4.src = data[4].image
 
+    console.log('fetching API Data', data[1].name)
+
+    const title = document.getElementById('title')
+    title.innerText = data[0].name
+
+    const title1 = document.getElementById('title1')
+    title1.innerText = data[1].name
+
+    const title2 = document.getElementById('title2')
+    title2.innerText = data[2].name
+
+    const title3 = document.getElementById('title3')
+    title3.innerText = data[3].name
+
+    const title4 = document.getElementById('title4')
+    title4.innerText = data[4].name
 }
+

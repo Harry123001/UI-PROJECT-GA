@@ -1,9 +1,35 @@
 .accordion {
-    width: 80%;
-    margin: 100px ;
-    border: 2px solid grey;
+    width: center;
+    margin: 10px ;
+    border: 5px solid #B2DF27;
 }
 
-body .accordion-item4{
-    background-color: aquamarine;
+.back {
+    text-align: center;
+    background-image: url("https://images.alphacoders.com/133/thumb-1920-1330376.png");
+    
+
 }
+
+.heading {
+   height: 300px;
+}
+
+.image {
+    width: 500px;
+    border: #B2DF27 solid 5px;
+}
+
+#title1,#title3{
+
+    font-family: 'creepster', cursive;
+    font-size: 28px;
+    background-color: #B2DF27;
+}
+
+#title,#title2,#title4{
+    font-family: 'creepster', cursive;
+    font-size: 28px;
+    background-color: #01B5CC;
+}
+
