@@ -1,5 +1,5 @@
 # UI-PROJECT-GA
-This project combines your programming skills in JavaScript with skills of building out user interfaces with HTML and CSS.
+This project combines your programming skills in JavaScript with skills in building user interfaces with HTML and CSS.
 
 ## Table of Contents
 
@@ -10,16 +10,14 @@ This project combines your programming skills in JavaScript with skills of build
 - [API Integration](#api-integration)
 
 ## Overview
-The project uses an Accordian style UI to display 4 memes pulled from the api data. It also includes a button that allows users to generate random memes.
+The project uses an Accordian-style UI to display 5 characters pulled from the API data.
 
 ## Demo
-https://mosmoo.github.io/UI-Element-Project/
+https://harry123001.github.io/UI-PROJECT-GA/
 ## Technologies Used
-
-List the technologies and frameworks used in your project. For example:
-
+ 
 - HTML, CSS, JavaScript, Bootstrap
-- API: Imgflip- https://imgflip.com/api
+- API: [Imgflip- https://imgflip.com/api](https://rickandmortyapi.com/api/character/1,2,3,4,5)
 
 ## Features
 
