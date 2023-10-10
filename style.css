@@ -7,8 +7,7 @@
 .back {
     text-align: center;
     background-image: url("https://images.alphacoders.com/133/thumb-1920-1330376.png");
-    
-
+    background-size: cover;
 }
 
 .heading {
